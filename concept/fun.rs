@@ -1,8 +1,9 @@
-fn main(){
-    println!("hello");
-    onemore_function();
+fn plus_one(x : i32) -> i32 {
+    x + 1
 }
 
-fn onemore_function(){
-    println!("Anothere function")
+
+fn main(){
+    let x =  plus_one(5);
+    println!("this no is {}",x);
 }
