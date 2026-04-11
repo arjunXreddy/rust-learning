@@ -11,4 +11,5 @@ fn main(){
 
     let element = a[x];
     println!("this is num {}",element);
+    
 }
